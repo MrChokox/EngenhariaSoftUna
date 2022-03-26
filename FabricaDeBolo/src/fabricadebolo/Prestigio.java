@@ -1,20 +1,19 @@
 
 package fabricadebolo;
 
-public class Prestigio implements AbstractBolo{
+public class Prestigio extends AbstractBolo{
 
-    private String nome;
-    private String tipo;
-    private float preco;
+    public Prestigio() {
+        setNome("Floresta negra");
+        setPreco(45.56f);
+        setTipo("6 ovos");
+    }
+
     
     @Override
-    public void sobreoBolo() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public void receita() {
+       System.out.println("Receita");
     }
 
-    @Override
-    public void receita() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
     
 }

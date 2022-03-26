@@ -1,20 +1,17 @@
 
 package fabricadebolo;
 
-public class Choconinho implements AbstractBolo{
+public class Choconinho extends AbstractBolo{
 
-    private String nome;
-    private String tipo;
-    private float preco;
+    public Choconinho() {
+        setNome("Choconinho");
+        setPreco(20.76f);
+        setTipo("50 ovos");
+    }
     
     @Override
-    public void sobreoBolo() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    @Override
-    public void receita() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
+        public void receita() {
+            System.out.println("Receita");
+        }
     
 }
