@@ -10,7 +10,7 @@ public class FlorestaNegra implements AbstractBoloInterface{
 
     @Override
     public void receita() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        System.out.println("5 colheres de chocolate amargo, 7 ovos, 5 xicaras de farinha");
     }
 
    

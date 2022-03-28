@@ -11,15 +11,18 @@ public class BoloFactory {
         
         switch(b){
             case ABACAXI:
-                f = new Retangulo();
+                bolo = new Abacaxi();
                 break;
             case PRESTIGIO:
-                f = new Circulo();
+                bolo = new Prestigio();
                 break;
-            case TRIANGULO:
-                f = new Triangulo();
-                break;                
+            case FLORESTANEGRA:
+                bolo = new FlorestaNegra();
+                break;    
+            case CHOCONINHO:
+            bolo = new Choconinho();
+            break;    
         }   
-        return f;
+        return bolo;
     }
 }
