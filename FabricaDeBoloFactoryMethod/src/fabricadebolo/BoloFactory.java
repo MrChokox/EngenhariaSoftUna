@@ -1,13 +1,15 @@
 
 package fabricadebolo;
 
-public class BoloFactory {
+public class BoloFactory implements AbstractBoloInterface{    
+    
      public enum Bolos{
         ABACAXI, PRESTIGIO, FLORESTANEGRA , CHOCONINHO;
     }
     
-    public AbstractBoloInterface getBolo(Bolos b){
-        AbstractBoloInterface bolo = null;
+     @Override
+    public Bolo getBolo(Bolos b){
+        Bolo bolo = null;
         
         switch(b){
             case ABACAXI:

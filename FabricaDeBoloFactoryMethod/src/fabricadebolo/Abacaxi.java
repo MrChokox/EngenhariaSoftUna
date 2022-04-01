@@ -1,18 +1,16 @@
 
 package fabricadebolo;
 
-public class Abacaxi implements AbstractBoloInterface{      
+public class Abacaxi extends Bolo{    
 
-    @Override
-    public void sobreoBolo() {
-        System.out.println("Bolo de abacaxi muito gostoso");
-    }
+    public Abacaxi() {
+        setNome("Abacaxi");
+        setPreco(13.34f);
+        setTipo("2 ovos");
+    }   
 
     @Override
     public void receita() {
-        System.out.println("5 Abacaxis, 3 ovos, 5 xicaras de farinha, 1 colher de sopa de bicarbonato ");
+        System.out.println("10kg de abacaxi, 2 copos de leite, 35 ovos, 5 xicaras de farinha, 2 copos de leite");
     }
-    
-    
-    
 }

@@ -4,9 +4,9 @@ package fabricadebolo;
 public class Prestigio extends AbstractBolo{
 
     public Prestigio() {
-        setNome("Floresta negra");
+        setNome("Prestigio");
         setPreco(45.56f);
-        setTipo("6 ovos");
+        setTipo("64 ovos");
     }
 
     

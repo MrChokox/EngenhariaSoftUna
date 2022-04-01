@@ -1,12 +1,13 @@
 
 package fabricadebolo;
 
-public class FlorestaNegra implements AbstractBoloInterface{
+public class FlorestaNegra extends Bolo{
 
-    @Override
-    public void sobreoBolo() {
-        
-    }
+    public FlorestaNegra() {
+        setNome("Floresta negra");
+        setPreco(45.5f);
+        setTipo("6 ovos");
+    }    
 
     @Override
     public void receita() {
