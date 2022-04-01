@@ -5,7 +5,7 @@ public class Abacaxi implements AbstractBoloInterface{
 
     @Override
     public void sobreoBolo() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        System.out.println("Bolo de abacaxi muito gostoso");
     }
 
     @Override
