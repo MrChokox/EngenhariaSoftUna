@@ -9,7 +9,7 @@ public abstract class Bolo {
     public abstract void receita();    
     
     public void sobreoBolo(){
-        System.out.println("\nNome:" + nome + "\nPreco:" + preco + "\nTipo:" + tipo);
+        System.out.println("\nSabor: " + nome + "\nPreco: " + preco + "\nTipo: " + tipo);
     }
 
     public void setNome(String nome) {

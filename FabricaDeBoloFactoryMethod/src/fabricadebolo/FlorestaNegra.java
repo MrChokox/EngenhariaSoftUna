@@ -5,8 +5,8 @@ public class FlorestaNegra extends Bolo{
 
     public FlorestaNegra() {
         setNome("Floresta negra");
-        setPreco(45.5f);
-        setTipo("6 ovos");
+        setPreco(23.00f);
+        setTipo("7 ovos");
     }    
 
     @Override

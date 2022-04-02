@@ -5,8 +5,8 @@ public class Abacaxi extends Bolo{
 
     public Abacaxi() {
         setNome("Abacaxi");
-        setPreco(13.34f);
-        setTipo("2 ovos");
+        setPreco(20.00f);
+        setTipo("35 ovos");
     }   
 
     @Override
