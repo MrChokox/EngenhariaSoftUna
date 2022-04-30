@@ -1,0 +1,24 @@
+Adapter
+
+Permite que objetos com interfaces direfentes colaborem entre si.
+Ex: adaptador de tomada
+
+Problema:
+
+Dados em xml que tem de ser passados para json
+Então temos que colocar um adaptador, para converter para json
+
+Solução:
+
+Criar um adaptador, um objeto que converte a interface de um objeto para que outro possa entendê-lo.
+
+Vantagem:
+
+Pode introduzir novos tipos de adaptadores no programa sem quebrar o código cliente existente.
+Responsabilidade unica separando a interface da logica do negocio.
+
+Desvantagem:
+
+Complexidade aumenta, precisa introduzir um conjunto de novas interfaces e classes.
+
+ 
