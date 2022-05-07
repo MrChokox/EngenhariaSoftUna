@@ -11,7 +11,7 @@ package açai;
  */
 public class Morango extends BaseDecorator {
     
-    public Morango(Acai ac) {
+    public Morango(Adicional ac) {
         super(ac);
     }
     
@@ -19,6 +19,7 @@ public class Morango extends BaseDecorator {
     public double custo() {
         return super.custo() + 15;
     }
+    
     @Override
     public String getDescricao() {
         return super.getDescricao() + " Morango ";

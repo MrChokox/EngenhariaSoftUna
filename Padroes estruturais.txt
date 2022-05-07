@@ -21,4 +21,28 @@ Desvantagem:
 
 Complexidade aumenta, precisa introduzir um conjunto de novas interfaces e classes.
 
+-------------------------------------------------------------------------------------------------------------------
+
+Decorator 
+
+Permite que acople novos comportamentos para objetos colocando o dentro de involucros de objetos que contém
+comportamentos.
+Uma forma alternativa ao uso da herança.
+
+#############################################
+
+Associação =TEM UM (agregação e composição)
+Herança = É UM (herança)
+
+#############################################
+
+Wrapper(envoltorio): expressa ideia do decorator
+Contem os mesmos metodos que o alvo e delega a ele todos pedidos que recebe
+
+
+açai implementa adicional 
+criar o base decorator que implementa de adicional tendo wrapper
+criar 
+
+
  

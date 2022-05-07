@@ -3,13 +3,18 @@ package açai;
 public class MontaAcai {
 
     public static void main(String[] args) { 
-        Acai acai = new Acai();
-        BaseDecorator bd = new BaseDecorator(acai);
-        System.out.println(bd.getDescricao());
-        System.out.println(bd.custo());
-        
-        Banana bn = new Banana(acai);
+        Adicional add = new Acai();
+        System.out.println(add.getDescricao());
+        Adicional bn = new Banana(add);         
         System.out.println(bn.getDescricao());
+        
+        Adicional mr = new Morango(add);        
+        mr = new LeiteCondensado(mr);
+
+        
+        System.out.println(mr.getDescricao());
+       
+        
         
         
     }

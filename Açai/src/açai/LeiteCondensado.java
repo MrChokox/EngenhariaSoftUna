@@ -11,7 +11,7 @@ package açai;
  */
 public class LeiteCondensado extends BaseDecorator {
     
-    public LeiteCondensado(Acai ac) {
+    public LeiteCondensado(Adicional ac) {
         super(ac);
     }
     @Override
@@ -21,6 +21,6 @@ public class LeiteCondensado extends BaseDecorator {
     
     @Override
     public String getDescricao() {
-        return super.getDescricao() + "Leite condensado";
+        return super.getDescricao() + " Leite condensado";
     }
 }

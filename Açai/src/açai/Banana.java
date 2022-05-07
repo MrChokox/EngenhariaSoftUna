@@ -11,7 +11,7 @@ package açai;
  */
 public class Banana extends BaseDecorator {
 
-    public Banana(Acai ac) {
+    public Banana(Adicional ac) {
         super(ac);
     }
 
